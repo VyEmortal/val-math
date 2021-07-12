@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.1/es5/tex-mml-chtml.js"></script>
+    <script id="AMSmath" async src="TeX/AMSmath.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <head>
+        <link rel="stylesheet" href="css/about.css">
+        <title> About </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="author" content="Valerie">
+    </head>
+
+    <!--hamburger menu-->
+    <link rel="stylesheet" href="css/hamburger-menu.css">
+    <div class="menu-button__background">
+        <div class="menu-btn">
+            <div class="menu-btn__burger">
+            </div>
+        </div> 
+    </div>
+    <div id="popupMenuItems" class="menu-popup"> 
+        <div class="menu-list">
+            <hr class="menu-hr">
+            <p> 
+                <a class="menu-link" href="../index.html"> 
+                    <div class="menu-item"> 
+                        <img src="images/icons/home-icon.png" class="menu-icon" alt="">
+                        Home 
+                    </div>
+                </a> 
+            </p>
+            <p> 
+                <a class="menu-link" href="../about.html"> 
+                    <div class="menu-item"> 
+                        <img src="images/icons/about.png" class="menu-icon" alt="">
+                        About 
+                    </div>
+                </a> 
+            </p>
+            <p> 
+                <a class="menu-link" href="../faq.html"> 
+                    <div class="menu-item"> 
+                        <img src="images/icons/question-mark-line.png" class="menu-icon" alt="">
+                        FAQ
+                    </div>
+                </a> 
+            </p>
+            <p> 
+                <a class="menu-link" href="../contact.html"> 
+                    <div class="menu-item"> 
+                        <img src="images/icons/email.png" class="menu-icon" alt="">
+                        Contact
+                    </div>
+                </a> 
+            </p>
+        
+
+            <hr class="menu-hr">
+            <p class="menu-link" style="color: gray;"> COURSES </p>
+            <p> <a class="menu-link" href="algebra.html"> Algebra </a> </p>
+            <p> <a class="menu-link" href="trig.html"> Trigonometry </a> </p>
+            <p> <a class="menu-link" href="calculus.html"> Calculus </a> </p>
+
+        </div>
+    </div>
+
+    <body class="background">
+        <section>
+            <div class="heading"> About </div>
+            <div class="section-about">
+                <h2> About Me </h2>
+                <hr size=6 noshade="true">
+                <p>
+                    My name is Valerie, and my pronouns are <i>she/her</i>. 
+                    I have a passion for teaching math, and I especially love its applications.
+                    Math class seldom goes over applications, which is why many students see math as "boring" and "useless" until they see its everyday uses.  
+                    In the future I plan to pursue a Ph.D. in applied mathematics to become a math professor, but for now I have this site to share what I can.
+                    I taught myself calculus in ninth grade and achieved a 5 on the Calculus BC exam.
+                    In tenth grade I started to tutor and began writing pages for this site.
+                    AP Physics C, which I took that year, inspired me to create pages dedicated to mathematical applications. 
+                    I found a lot of gratification in learning physics with calculus applied, as doing so formulated a more complete understanding
+                    and introduced some applications that I write about now. 
+                </p>
+
+                <h2> This Site </h2>
+                <hr size=6 noshade="true">
+                <p>
+                    I built this website using HTML, CSS, and JavaScript. 
+                    I used MathJax to display the equations. 
+                    MathJax permits me to type LaTeX, but I've been limited because I cannot add packages to the code. 
+                    Most of the graphs on this site were made using Desmos and some photoshop,
+                    but I've had to resort to external tools for animations and geometry—namely, Manim. 
+                </p>
+                
+                <h2> Exercises </h2>
+                <hr size=6 noshade="true">
+                <p>
+                    The problems on this site were all written by me. 
+                    I will admit that some of them are made to be intentionally hard (mainly the last problems in a section set), 
+                    so I wouldn't worry too much if there are a few you can't do.
+                    However, doing them is a great way to prepare for any tests because you'll have been exposed to potentially harder questions.
+                    And fun fact: 
+                    one day I came up with about twenty extremely hard integrals—and now, looking back, I can barely do five of them! 
+                    On some sections, there are probably about two or three problems that I couldn't do without referencing 
+                    the answer key I made. 
+                </p>
+
+                <h2> Writing and Conventions </h2>
+                <hr size=6 noshade="true">
+                <p>
+                    I follow these guidelines when I write. 
+                    These styles are open to discussion, however; if you disagree and would like to propose an alternative, please contact me. 
+                </p>
+                <p>
+                    <span class="list-item"> \((1)\) </span>
+                    In a list of three or more items, a comma is required after the penultimate item in the series 
+                    (this is more commonly known as the "Oxford Comma.") For example, a sentence such as 
+                    <i> I like A, B and C </i> must instead be punctuated as 
+                    <i> I like A, B, and C</i>.
+                </p>
+                <p>
+                    <span class="list-item"> \((2)\) </span>
+                    A space must be inserted before a question mark if the last word is mathematical.
+                    For example, a question such as 
+                    <i> What is the value of \(d\)?</i> must be rewritten as 
+                    <i> What is the value of \(d\) ?</i> to ensure readability.
+                    However, a sentence such as 
+                    <i> For what values of \(k\) is \(f(x)\) continuous?</i> does not warrant a space before the question mark because the last word is not mathematical.
+                </p>
+                <p>
+                    <span class="list-item"> \((3)\) </span>
+                    Periods and commas are to be placed inside quotation marks, unless the last word of the quoted content is mathematical, 
+                    in which case the punctuation mark must be placed outside.
+                    For example, the sentence 
+                    <i> We will call this value "\(x_{avg}\)," as shown by … </i> is unreadable and may erect confusion. 
+                    Therefore, it is best to rewrite the sentence as 
+                    <i> We will call this value "\(x_{avg}\)", as shown by …</i> .
+                </p>
+                <p>
+                    <span class="list-item"> \((4)\) </span>
+                    Lists should be numbered using LaTeX code. 
+                    Parentheses must enclose the number, with the exception of exercise numbers. 
+                </p>
+                <p>
+                    <span class="list-item"> \((5)\) </span>
+                    For mathematical discussions, it is recommended to add emphasis by using the phrases 
+                    <i>in order to</i> and <i>in order for</i> in place of <i>to</i> and <i>for</i>, respectively.
+                    In conditional clauses, it is also recommended to add the word <i>then</i>. 
+                    For example, it is recommended to write 
+                    <i>If \(\sum |a_n|\) converges, then so does \(\sum a_n\) </i> 
+                    instead of 
+                    <i>If \(\sum |a_n|\) converges, so does \(\sum a_n\)</i>.
+                </p>
+            </div>
+        </section>
+    </body>
+</html>
